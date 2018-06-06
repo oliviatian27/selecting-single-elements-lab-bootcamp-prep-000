@@ -24,7 +24,7 @@ Go ahead and select the JavaScript tab and you'll see some JavaScript code
 //Enter querySelector Code here
 var header = document.querySelector("#header").innerHTML
 var linkText = document.querySelector('a').text
-var linkHref = "ENTER LINK HREF CODE HERE"
+var linkHref = document.querySelector('a').href
 
 
 // NO NEED TO MODIFY BELOW HERE
